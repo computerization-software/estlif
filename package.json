@@ -1,14 +1,17 @@
 {
   "name": "estlif",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "template engine based on ECMAscript template literals",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "pretify": "prettier --write ."
+    "pretify": "prettier --write .",
+    "build": "npx tsc"
   },
   "author": "idbolshakov@gmail.com",
   "license": "ISC",
   "devDependencies": {
-    "prettier": "^2.1.2"
+    "@types/node": "^14.14.6",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.5"
   }
 }
